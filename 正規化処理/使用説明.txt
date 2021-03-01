@@ -1,0 +1,17 @@
+AlexNet and GoogLeNet model require 24 bit depth image file. If the new image data is 8 bit depth, we need to resize data to 24 bit depth. If the image data is already 24 bit depth, we can skip the image process and save the data directly to the ｡ｰImage data｡ｱ folder according to the data category.
+
+
+ImageProcess file:  MATLAB code file for resize image 
+   
+入力データ folder:   Put image file requiring an action that adjust to 24-bit depth in here.
+
+出力データ folder:  Output folder. We can copy the 24-bit depth image here into the 入力データ folder according to the data category.
+
+
+
+Workflow
+
+Step 1:   Put image files requiring an action that adjust to 24-bit depth in 入力データ folder.
+Step 2:   Open MATLAB software with ImageProcess file, and fill in the extension of image files then run this program.
+Step 3:   After finish running, check output image files in 出力データ folder, then according to image category place image files.
+
